@@ -11,7 +11,7 @@ This project is a visualization tool created to demonstrate various sorting algo
 - Visualization of various sorting algorithms (e.g., Bubble Sort, Selection Sort, Quick Sort, etc.).
 - Generating a random array or sorting a user-defined array.
 - Adjusting the speed of the sorting process.
-- Navigating forward or backward through the step-by-step sorting process.
+- Navigating step-by-step sorting process.
 - Verifying the sorted result array.
 
 ## Requirements
