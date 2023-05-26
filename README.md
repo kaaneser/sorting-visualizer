@@ -33,12 +33,12 @@ To run this project, you need the following requirements:
    ```
 
 3. Install utils module 
-  ```
+   ```
    pip install utils
    ```
 4. Run project
-     ```
-     python main.py
+   ```
+   python main.py
    ```
 ## Usage
 
