@@ -1,4 +1,4 @@
-# Porting-Sorting-Visualizer
+# Pythong-Sorting-Visualizer
 
 This project is a visualization tool created to demonstrate various sorting algorithms. The tool helps the user to better understand the sorting process by showing the steps of the selected sorting algorithm in a step-by-step manner.
 
