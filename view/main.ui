@@ -73,16 +73,6 @@
      </property>
     </widget>
    </widget>
-   <widget class="QGraphicsView" name="graph_view">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>30</y>
-      <width>700</width>
-      <height>700</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
@@ -242,17 +232,73 @@
        <height>22</height>
       </rect>
      </property>
+     <property name="minimum">
+      <number>10</number>
+     </property>
      <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
       <number>100</number>
      </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
+     <property name="invertedAppearance">
+      <bool>true</bool>
+     </property>
+     <property name="invertedControls">
+      <bool>false</bool>
+     </property>
     </widget>
+   </widget>
+   <widget class="MplWidget" name="MplWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>40</y>
+      <width>701</width>
+      <height>701</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="count_lbl">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>750</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Karşılaştırma Sayısı:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="complex_lbl">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>750</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Karmaşıklık Analizi:</string>
+    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>controller.mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
