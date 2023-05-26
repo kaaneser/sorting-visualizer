@@ -103,51 +103,6 @@ class GraphModel:
         self.complex_lbl.setText(f"Karmaşıklık Analizi: {comparisions + swaps + 1}")
         self.count_lbl.setText(f"Karşılaştırma Sayısı: {comparisions}")
 
-    """def merge_sort(self, arr):
-        comparisions = 0
-        swaps = 0
-
-        if (len(arr)) > 1:
-            self.timer.start()
-            mid = len(arr) // 2
-            sub_arr1 = arr[:mid]
-            sub_arr2 = arr[mid:]
-
-            comparisions += self.merge_sort(sub_arr1)
-            comparisions += self.merge_sort(sub_arr2)
-
-            i = j = k = 0
-
-            while i < len(sub_arr1) and j < len(sub_arr2):
-                comparisions += 1
-                if sub_arr1[i] < sub_arr2[j]:
-                    arr[k] = sub_arr1[i]
-                    i += 1
-                else:
-                    arr[k] = sub_arr2[j]
-                    j += 1
-                k += 1
-                swaps += 1
-
-
-            while i < len(sub_arr1):
-                arr[k] = sub_arr1[i]
-                i += 1
-                k += 1
-                swaps += 1
-
-            while j < len(sub_arr2):
-                arr[k] = sub_arr2[j]
-                j += 1
-                k += 1
-                swaps += 1
-
-        self.visualize(None, None)
-        self.complex_lbl.setText(f"Karmaşıklık Analizi: {comparisions + swaps + 1}")
-        self.count_lbl.setText(f"Karşılaştırma Sayısı: {comparisions}")
-
-        return comparisions"""
-
     def visualize(self, x, y):
         colors = ['green' if i == x else 'red' if i == y else 'orange' for i in range(len(self.elements))]
         self.MplWidget.canvas.axes.clear()
