@@ -50,8 +50,6 @@ To run this project, you need the following requirements:
 
 4. Click the "Sort" button to start the sorting process.
 
-5. While the sorting process is ongoing, you can adjust the speed using the "Speed" slider. Choosing "Slow" allows for clearer visualization of each step, while "Fast" executes the steps more quickly.
+5. While the sorting process is ongoing, you can adjust the speed using the "Speed" slider.
+6. You can pause or reset the proccesses
 
-6. You can navigate forward and backward through the step-by-step sorting process using the forward and backward buttons.
-
-7. To verify the sorted result array, click the "Validate" button.
